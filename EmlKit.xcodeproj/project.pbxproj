@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF162EEE2CEEC50100CE08E3 /* EmlBuildPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF162EED2CEEC50100CE08E3 /* EmlBuildPart.swift */; };
+		CF162EEF2CEED6F100CE08E3 /* EmlBuildPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF162EED2CEEC50100CE08E3 /* EmlBuildPart.swift */; };
+		CF162EF42CEF07E600CE08E3 /* EmlBuildPartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF162EF32CEF07E600CE08E3 /* EmlBuildPartTests.swift */; };
+		CF2777762C869ED300917C5A /* EmlKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF27776D2C869ED300917C5A /* EmlKit.framework */; };
+		CF27777B2C869ED300917C5A /* EmlKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF27777A2C869ED300917C5A /* EmlKitTests.swift */; };
+		CF27777C2C869ED300917C5A /* EmlKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2777702C869ED300917C5A /* EmlKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2777862C869EE000917C5A /* EmlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2777852C869EE000917C5A /* EmlBuilder.swift */; };
+		CF47A02B2CB78017001317A2 /* EmlParsePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47A02A2CB78017001317A2 /* EmlParsePart.swift */; };
+		CF47A02C2CB78017001317A2 /* EmlParsePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47A02A2CB78017001317A2 /* EmlParsePart.swift */; };
+		CF47A02E2CB783E0001317A2 /* String_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47A02D2CB783E0001317A2 /* String_Ext.swift */; };
+		CF47A02F2CB783E0001317A2 /* String_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF47A02D2CB783E0001317A2 /* String_Ext.swift */; };
+		CF6ADB672CE5F33000AD6072 /* EmlBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6ADB662CE5F33000AD6072 /* EmlBuilderTests.swift */; };
+		CF6ADB682CE5F3AE00AD6072 /* EmlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2777852C869EE000917C5A /* EmlBuilder.swift */; };
+		CFD1E0982CBCC73300B115E7 /* EmlParsePartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1E0972CBCC73300B115E7 /* EmlParsePartTest.swift */; };
+		CFD1E09A2CBD203900B115E7 /* StringExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1E0992CBD203900B115E7 /* StringExtTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2777772C869ED300917C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2777642C869ED300917C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF27776C2C869ED300917C5A;
+			remoteInfo = EmlKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF162EED2CEEC50100CE08E3 /* EmlBuildPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlBuildPart.swift; sourceTree = "<group>"; };
+		CF162EF32CEF07E600CE08E3 /* EmlBuildPartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlBuildPartTests.swift; sourceTree = "<group>"; };
+		CF27776D2C869ED300917C5A /* EmlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2777702C869ED300917C5A /* EmlKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmlKit.h; sourceTree = "<group>"; };
+		CF2777752C869ED300917C5A /* EmlKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmlKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF27777A2C869ED300917C5A /* EmlKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlKitTests.swift; sourceTree = "<group>"; };
+		CF2777852C869EE000917C5A /* EmlBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlBuilder.swift; sourceTree = "<group>"; };
+		CF47A02A2CB78017001317A2 /* EmlParsePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlParsePart.swift; sourceTree = "<group>"; };
+		CF47A02D2CB783E0001317A2 /* String_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Ext.swift; sourceTree = "<group>"; };
+		CF6ADB662CE5F33000AD6072 /* EmlBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlBuilderTests.swift; sourceTree = "<group>"; };
+		CFD1E0972CBCC73300B115E7 /* EmlParsePartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmlParsePartTest.swift; sourceTree = "<group>"; };
+		CFD1E0992CBD203900B115E7 /* StringExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF27776A2C869ED300917C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2777722C869ED300917C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2777762C869ED300917C5A /* EmlKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2777632C869ED300917C5A = {
+			isa = PBXGroup;
+			children = (
+				CF27776F2C869ED300917C5A /* EmlKit */,
+				CF2777792C869ED300917C5A /* EmlKitTests */,
+				CF27776E2C869ED300917C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF27776E2C869ED300917C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF27776D2C869ED300917C5A /* EmlKit.framework */,
+				CF2777752C869ED300917C5A /* EmlKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF27776F2C869ED300917C5A /* EmlKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF2777702C869ED300917C5A /* EmlKit.h */,
+				CF47A02D2CB783E0001317A2 /* String_Ext.swift */,
+				CF2777852C869EE000917C5A /* EmlBuilder.swift */,
+				CF162EED2CEEC50100CE08E3 /* EmlBuildPart.swift */,
+				CF47A02A2CB78017001317A2 /* EmlParsePart.swift */,
+			);
+			path = EmlKit;
+			sourceTree = "<group>";
+		};
+		CF2777792C869ED300917C5A /* EmlKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF162EF32CEF07E600CE08E3 /* EmlBuildPartTests.swift */,
+				CF6ADB662CE5F33000AD6072 /* EmlBuilderTests.swift */,
+				CF27777A2C869ED300917C5A /* EmlKitTests.swift */,
+				CFD1E0972CBCC73300B115E7 /* EmlParsePartTest.swift */,
+				CFD1E0992CBD203900B115E7 /* StringExtTests.swift */,
+			);
+			path = EmlKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF2777682C869ED300917C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF27777C2C869ED300917C5A /* EmlKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF27776C2C869ED300917C5A /* EmlKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF27777F2C869ED300917C5A /* Build configuration list for PBXNativeTarget "EmlKit" */;
+			buildPhases = (
+				CF2777682C869ED300917C5A /* Headers */,
+				CF2777692C869ED300917C5A /* Sources */,
+				CF27776A2C869ED300917C5A /* Frameworks */,
+				CF27776B2C869ED300917C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmlKit;
+			productName = EmlKit;
+			productReference = CF27776D2C869ED300917C5A /* EmlKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF2777742C869ED300917C5A /* EmlKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2777822C869ED300917C5A /* Build configuration list for PBXNativeTarget "EmlKitTests" */;
+			buildPhases = (
+				CF2777712C869ED300917C5A /* Sources */,
+				CF2777722C869ED300917C5A /* Frameworks */,
+				CF2777732C869ED300917C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2777782C869ED300917C5A /* PBXTargetDependency */,
+			);
+			name = EmlKitTests;
+			productName = EmlKitTests;
+			productReference = CF2777752C869ED300917C5A /* EmlKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2777642C869ED300917C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CF27776C2C869ED300917C5A = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					CF2777742C869ED300917C5A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CF2777672C869ED300917C5A /* Build configuration list for PBXProject "EmlKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2777632C869ED300917C5A;
+			productRefGroup = CF27776E2C869ED300917C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF27776C2C869ED300917C5A /* EmlKit */,
+				CF2777742C869ED300917C5A /* EmlKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF27776B2C869ED300917C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2777732C869ED300917C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2777692C869ED300917C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF47A02E2CB783E0001317A2 /* String_Ext.swift in Sources */,
+				CF2777862C869EE000917C5A /* EmlBuilder.swift in Sources */,
+				CF47A02B2CB78017001317A2 /* EmlParsePart.swift in Sources */,
+				CF162EEE2CEEC50100CE08E3 /* EmlBuildPart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2777712C869ED300917C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6ADB682CE5F3AE00AD6072 /* EmlBuilder.swift in Sources */,
+				CF47A02F2CB783E0001317A2 /* String_Ext.swift in Sources */,
+				CF27777B2C869ED300917C5A /* EmlKitTests.swift in Sources */,
+				CF6ADB672CE5F33000AD6072 /* EmlBuilderTests.swift in Sources */,
+				CFD1E09A2CBD203900B115E7 /* StringExtTests.swift in Sources */,
+				CFD1E0982CBCC73300B115E7 /* EmlParsePartTest.swift in Sources */,
+				CF162EEF2CEED6F100CE08E3 /* EmlBuildPart.swift in Sources */,
+				CF162EF42CEF07E600CE08E3 /* EmlBuildPartTests.swift in Sources */,
+				CF47A02C2CB78017001317A2 /* EmlParsePart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2777782C869ED300917C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF27776C2C869ED300917C5A /* EmlKit */;
+			targetProxy = CF2777772C869ED300917C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF27777D2C869ED300917C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF27777E2C869ED300917C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF2777802C869ED300917C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Coremail.EmlKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2777812C869ED300917C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = Coremail.EmlKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF2777832C869ED300917C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D97EM46M64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coremail.EmlKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2777842C869ED300917C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D97EM46M64;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coremail.EmlKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2777672C869ED300917C5A /* Build configuration list for PBXProject "EmlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF27777D2C869ED300917C5A /* Debug */,
+				CF27777E2C869ED300917C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF27777F2C869ED300917C5A /* Build configuration list for PBXNativeTarget "EmlKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2777802C869ED300917C5A /* Debug */,
+				CF2777812C869ED300917C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2777822C869ED300917C5A /* Build configuration list for PBXNativeTarget "EmlKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2777832C869ED300917C5A /* Debug */,
+				CF2777842C869ED300917C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2777642C869ED300917C5A /* Project object */;
+}
